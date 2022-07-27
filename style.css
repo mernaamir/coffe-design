@@ -1,14 +1,28 @@
 nav{
-    /* background-color:darkgray !important; */
 
-    background-color: rgb(255,255,255,0.2) !important;
+    background-color: transparent!important;
     position: absolute;
     width: 100%;
-    /* z-index: 1; */
+    z-index: 1;
     height: 100px !important;
+    color: red;
 }
+/* .navbar-toggler{
+    color:red;
+} */
+
+.drk{
+    content: "";
+    display: block;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    background-color: grey;
+    /* opacity: 0.7; */
 
 
+}
 
 ul{
     background-color: none;
@@ -66,4 +80,16 @@ ul{
 
 .cart .content .pastlcart{
     background-color: white;
+}
+
+.bk-cart{
+    background-image: url("hey.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative ;
+}
+.bk-cart .cartss{
+    position: absolute;
+    top:1000px;
+
 }
